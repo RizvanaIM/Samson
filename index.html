@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samson Holdings Pvt (Ltd)</title>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Animation Libraries - Load these before the closing body tag -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/Logo.jpg" alt="Samson Holdings Logo">
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#products" class="nav-link">Products</a>
+            <a href="#sectors" class="nav-link">Sectors</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <button class="theme-toggle" title="Toggle dark/light theme" aria-label="Toggle dark/light theme">
+                <i class="fas fa-sun" aria-hidden="true"></i>
+                <i class="fas fa-moon" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Image Slider -->
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide active">
+                    <img src="assets/slide1.jpg" alt="Samson Holdings Manufacturing">
+                    <div class="slide-overlay"></div>
+                </div>
+                <div class="slide">
+                    <img src="assets/slide2.jpg" alt="Samson Holdings Products">
+                    <div class="slide-overlay"></div>
+                </div>
+                <div class="slide">
+                    <img src="assets/slide3.jpg" alt="Samson Holdings Technology">
+                    <div class="slide-overlay"></div>
+                </div>
+                <div class="slide">
+                    <img src="assets/slide4.jpg" alt="Samson Holdings Innovation">
+                    <div class="slide-overlay"></div>
+                </div>
+                <div class="slide">
+                    <img src="assets/slide5.jpg" alt="Samson Holdings Excellence">
+                    <div class="slide-overlay"></div>
+                </div>
+            </div>
+            
+            <!-- Slider Navigation -->
+            <div class="slider-nav">
+                <button class="slider-btn prev" aria-label="Previous slide">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="slider-dots"></div>
+                <button class="slider-btn next" aria-label="Next slide">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-up">
+                    <h1 class="animated-title">Welcome to<br>Samson Holdings</h1>
+                    <p class="animated-subtitle">Your One-Stop Solution for Quality Products & Services</p>
+                    <div class="cta-buttons">
+                        <button class="primary-btn">
+                            <span>Explore Products</span>
+                            <lottie-player src="https://lottie.host/2e43c1bc-c5a2-4ce0-9645-d2653b3ccc44/pERBFVVzId.json" 
+                                background="transparent" speed="1" style="width: 24px; height: 24px;" hover>
+                            </lottie-player>
+                        </button>
+                        <button class="secondary-btn">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-heading">Our Products</h2>
+            <p class="section-subtext">Discover our range of quality products</p>
+        </div>
+        
+        <div class="products-container">
+            <button class="scroll-btn scroll-left" aria-label="Scroll left">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            
+            <div class="products-wrapper">
+                <!-- Product Card 1 -->
+                <div class="product-card" data-aos="fade-up">
+                    <div class="card-shine"></div>
+                    <div class="product-image">
+                        <img src="assets/Detergents.jpg" alt="Glezol Detergents">
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Cleaning Solutions</span>
+                        <h3>Glezol Detergents</h3>
+                        <p>Premium cleaning solutions for your home and office. Effective against tough stains.</p>
+                        <div class="product-price">
+                            <span class="price">$19.99</span>
+                            <span class="unit">/ unit</span>
+                        </div>
+                        <button class="shop-btn">
+                            <span>Shop Now</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="product-card" data-aos="fade-up">
+                    <div class="card-shine"></div>
+                    <div class="product-image">
+                        <img src="assets/paints.jpg" alt="Samson Paints">
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Interior & Exterior</span>
+                        <h3>Samson Paints</h3>
+                        <p>High-quality paints for every surface. Long-lasting and vibrant colors.</p>
+                        <div class="product-price">
+                            <span class="price">$29.99</span>
+                            <span class="unit">/ gallon</span>
+                        </div>
+                        <button class="shop-btn">
+                            <span>Shop Now</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="product-card" data-aos="fade-up">
+                    <div class="card-shine"></div>
+                    <div class="product-image">
+                        <img src="assets/it-services.jpg" alt="IT Solutions">
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Technology</span>
+                        <h3>IT Solutions</h3>
+                        <p>Modern technology services for businesses. Custom software solutions.</p>
+                        <div class="product-price">
+                            <span class="price">Custom</span>
+                            <span class="unit">/ project</span>
+                        </div>
+                        <button class="shop-btn">
+                            <span>Learn More</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product Card 4 -->
+                <div class="product-card" data-aos="fade-up">
+                    <div class="card-shine"></div>
+                    <div class="product-image">
+                        <img src="assets/fabric.jpg" alt="Fabric Printing">
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Printing</span>
+                        <h3>Fabric Printing</h3>
+                        <p>High-quality fabric printing services. Custom designs and bulk orders.</p>
+                        <div class="product-price">
+                            <span class="price">$14.99</span>
+                            <span class="unit">/ meter</span>
+                        </div>
+                        <button class="shop-btn">
+                            <span>Shop Now</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product Card 5 -->
+                <div class="product-card" data-aos="fade-up">
+                    <div class="card-shine"></div>
+                    <div class="product-image">
+                        <img src="assets/offset.jpg" alt="Offset Printing">
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Printing</span>
+                        <h3>Offset Printing</h3>
+                        <p>Professional offset printing services for all your business needs.</p>
+                        <div class="product-price">
+                            <span class="price">Custom</span>
+                            <span class="unit">/ order</span>
+                        </div>
+                        <button class="shop-btn">
+                            <span>Get Quote</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product Card 6 -->
+                <div class="product-card" data-aos="fade-up">
+                    <div class="card-shine"></div>
+                    <div class="product-image">
+                        <img src="assets/products/digital.jpg" alt="Digital Solutions">
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Technology</span>
+                        <h3>Digital Solutions</h3>
+                        <p>Comprehensive digital transformation solutions for modern businesses.</p>
+                        <div class="product-price">
+                            <span class="price">Custom</span>
+                            <span class="unit">/ solution</span>
+                        </div>
+                        <button class="shop-btn">
+                            <span>Learn More</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <button class="scroll-btn scroll-right" aria-label="Scroll right">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <div class="scroll-indicator-dots"></div>
+    </section>
+
+    <!-- Sectors Section -->
+    <section id="sectors" class="sectors">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-heading">Our Sectors</h2>
+            <p class="section-subtext">Excellence across multiple industries</p>
+        </div>
+
+        <div class="sectors-container">
+            <button class="scroll-btn scroll-left" aria-label="Scroll left">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <div class="sectors-wrapper">
+                <!-- Sector Card 1 -->
+                <div class="sector-card" data-aos="fade-up">
+                    <div class="card-shine"></div>
+                    <div class="sector-icon">
+                        <img src="assets/manufacturing.jpg" alt="Manufacturing">
+                    </div>
+                    <div class="sector-content">
+                        <span class="sector-category">Core Business</span>
+                        <h3>Manufacturing</h3>
+                        <p>State-of-the-art manufacturing facilities with cutting-edge technology and quality control.</p>
+                        <ul class="sector-features">
+                            <li><i class="fas fa-check"></i> Quality Control</li>
+                            <li><i class="fas fa-check"></i> Modern Equipment</li>
+                            <li><i class="fas fa-check"></i> Efficient Production</li>
+                        </ul>
+                        <button class="learn-more-btn">
+                            <span>Learn More</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Sector Card 2 -->
+                <div class="sector-card" data-aos="fade-up">
+                    <div class="card-shine"></div>
+                    <div class="sector-icon">
+                        <img src="assets/distribution.jpg" alt="Distribution">
+                    </div>
+                    <div class="sector-content">
+                        <span class="sector-category">Logistics</span>
+                        <h3>Distribution</h3>
+                        <p>Nationwide distribution network ensuring timely delivery and efficient supply chain.</p>
+                        <ul class="sector-features">
+                            <li><i class="fas fa-check"></i> Wide Coverage</li>
+                            <li><i class="fas fa-check"></i> Quick Delivery</li>
+                            <li><i class="fas fa-check"></i> Reliable Service</li>
+                        </ul>
+                        <button class="learn-more-btn">
+                            <span>Learn More</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Sector Card 3 -->
+                <div class="sector-card" data-aos="fade-up">
+                    <div class="card-shine"></div>
+                    <div class="sector-icon">
+                        <img src="assets/technology.jpg" alt="Technology">
+                    </div>
+                    <div class="sector-content">
+                        <span class="sector-category">Innovation</span>
+                        <h3>Technology</h3>
+                        <p>Cutting-edge IT solutions and digital transformation services for modern businesses.</p>
+                        <ul class="sector-features">
+                            <li><i class="fas fa-check"></i> Digital Innovation</li>
+                            <li><i class="fas fa-check"></i> Custom Solutions</li>
+                            <li><i class="fas fa-check"></i> Technical Support</li>
+                        </ul>
+                        <button class="learn-more-btn">
+                            <span>Learn More</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Sector Card 4 -->
+                <div class="sector-card" data-aos="fade-up">
+                    <div class="card-shine"></div>
+                    <div class="sector-icon">
+                        <img src="assets/printing.jpg" alt="Printing">
+                    </div>
+                    <div class="sector-content">
+                        <span class="sector-category">Printing</span>
+                        <h3>Printing Services</h3>
+                        <p>Professional printing solutions for all your business and personal needs.</p>
+                        <ul class="sector-features">
+                            <li><i class="fas fa-check"></i> Offset Printing</li>
+                            <li><i class="fas fa-check"></i> Digital Printing</li>
+                            <li><i class="fas fa-check"></i> Custom Design</li>
+                        </ul>
+                        <button class="learn-more-btn">
+                            <span>Learn More</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Sector Card 5 -->
+                <div class="sector-card" data-aos="fade-up">
+                    <div class="card-shine"></div>
+                    <div class="sector-icon">
+                        <img src="assets/chemical.jpg" alt="Chemical">
+                    </div>
+                    <div class="sector-content">
+                        <span class="sector-category">Chemical</span>
+                        <h3>Chemical Products</h3>
+                        <p>High-quality chemical products for industrial and consumer applications.</p>
+                        <ul class="sector-features">
+                            <li><i class="fas fa-check"></i> Quality Standards</li>
+                            <li><i class="fas fa-check"></i> Safety Compliance</li>
+                            <li><i class="fas fa-check"></i> Research & Development</li>
+                        </ul>
+                        <button class="learn-more-btn">
+                            <span>Learn More</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <button class="scroll-btn scroll-right" aria-label="Scroll right">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <div class="scroll-indicator-dots"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-heading">About Us</h2>
+            <p class="section-subtext">Our journey of excellence since 1994</p>
+        </div>
+
+        <div class="about-container">
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-up">
+                    <p class="highlight-text">
+                        Established in <span class="accent-text">1994</span>, Samson Holdings began as an offset printers 
+                        and large format fabric printers for a limited market.
+                    </p>
+                    <p class="story-text">
+                        With a clear vision of becoming <span class="accent-text">Sri Lanka's most versatile & leading</span> 
+                        Import & Product base company, we've grown exponentially. Today, we stand as a testament to innovation,
+                        quality, and customer satisfaction across multiple sectors including manufacturing, technology, and chemical products.
+                    </p>
+                    <p class="story-text">
+                        Our commitment to excellence and continuous improvement has enabled us to expand our portfolio
+                        and serve a diverse range of industries. We take pride in our journey and look forward to
+                        creating more milestones in the years to come.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-heading">Contact Us</h2>
+            <p class="section-subtext">Get in touch with our team</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Call Us</h3>
+                        <p><a href="tel:+94779397007">+94-77 939 7007</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email Us</h3>
+                        <p><a href="mailto:info@samsonholdings.lk">info@samsonholdings.lk</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Visit Us</h3>
+                        <p>Samson Holdings, Colombo, Sri Lanka</p>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="social-links" data-aos="fade-up">
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <img src="assets/Logo.jpg" alt="Samson Holdings Logo" class="footer-logo">
+                <p>Your trusted partner in quality products and services</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#products">Products</a>
+                    <a href="#sectors">Sectors</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Products</h4>
+                    <a href="#">Glezol Detergents</a>
+                    <a href="#">Samson Paints</a>
+                    <a href="#">IT Solutions</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-phone"></i> +94-77 939 7007</p>
+                    <p><i class="fas fa-envelope"></i> info@samsonholdings.lk</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Colombo, Sri Lanka</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Samson Holdings Pvt (Ltd). All rights reserved.</p>
+            <p>Designed by Nexora_IT</p>
+        </div>
+    </footer>
+
+    <!-- Scripts - Load at the end of body -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.162.0/three.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
